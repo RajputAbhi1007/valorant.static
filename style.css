@@ -97,7 +97,7 @@ web-icons > .web:hover{
 .video-container{
     height: 80vh;
     width: 100%;
-    background-color: yellow;
+    background-color: black;
     position: relative;
 }
 .video-container>video{
@@ -217,4 +217,112 @@ web-icons > .web:hover{
 .card .description{
     font-weight: normal;
     font-size: 16px;
+}
+
+/* NEW AGENT SECTION */
+.agent-container{
+    height: 91vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.agent-container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.agent-content{
+    /* border: 2px solid white; */
+    position: absolute;
+    right: 11%;
+    top: 30%;
+    color: white;
+    letter-spacing: 0.08em;
+}
+.agent-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+    margin-bottom: 10px;
+}
+.agent-content>button{
+    background-color: #ff3c46;
+    padding: 18px 32px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.agent-content>button:hover{
+    color: black;
+    background-color: white;
+}
+.gameplay-container{
+    height: 75vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-image: url(/img/gameplaybg.png);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gameplay-container > article{
+    width: 45%;
+    height: 80%;
+    /* border: 2px solid black; */
+}
+.gameplay-video-container > video{
+    height: 100%;
+    width: 100%;
+}
+.gameplay-content{
+    padding: 8px;
+}
+.gameplay-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+    margin-bottom: 16px;
+}
+.gameplay-content>div{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.gameplay-content>p{
+    font-size: 14px;
+    color: #0f1923;
+}
+.gameplay-content>button{
+    background-color: #ff3c46;
+    color: white;
+    padding: 18px 32px;
+    border: none;
+    margin-top: 25px;
+}
+.gameplay-content>button:hover{
+    color: black;
+    background-color: white;
+}
+.your-agent-container{
+    height: 90vh;
+    width: 100%;
+    background-image: url(/img/your-agent_bg.png);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.your-agent-container > article{
+    width: 45%;
+    height: 90%;
+    border: 2px solid black;
+}
+.your-agent-image-container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+
 }
