@@ -291,7 +291,19 @@ web-icons > .web:hover{
 }
 .gameplay-content>p{
     font-size: 14px;
-    color: #0f1923;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+    font-weight: 400;
+    font-family: DINNextW1G, Inter, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: black;
+
 }
 .gameplay-content>button{
     background-color: #ff3c46;
@@ -299,10 +311,12 @@ web-icons > .web:hover{
     padding: 18px 32px;
     border: none;
     margin-top: 25px;
+    cursor: pointer;
 }
 .gameplay-content>button:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
+    transition: 0.2s;
 }
 .your-agent-container{
     height: 90vh;
@@ -317,12 +331,57 @@ web-icons > .web:hover{
 .your-agent-container > article{
     width: 45%;
     height: 90%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .your-agent-image-container>img{
     height: 100%;
     width: 100%;
     object-fit: contain;
     object-position: center;
+}
+/* self */
+.your-agent-content{
+    padding: 130px 0;
+    color: #ece8e1;
+    align-items: center;
+    justify-content: center;
+}
+.your-agent-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+    margin-bottom: 16px;
+}
+.your-agent-content>h1{
+    font-size: 80px;
+    font-family: fantasy;
+    margin-bottom: 16px;
 
+}
+.your-agent-content>p{
+    font-size: 14px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+    font-weight: 400;
+    font-family: DINNextW1G, Inter, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(236, 232, 225);
+}
+.your-agent-content>button{
+     background-color: black;
+    color: white;
+    padding: 18px 25px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.your-agent-content>button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
 }
